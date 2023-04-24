@@ -298,8 +298,12 @@ p {
 }
 
 
-#announcements ul {
-    height: 300px;
+#announcements li:first-child h3 {
+    margin-top: 0;
+}
+
+#announcements li:last-child p {
+    margin-bottom: 0;
 }
 #announcements #mid {
     border-top: gray 2px solid;
